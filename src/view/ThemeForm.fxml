@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="rootContext" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1152.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ThemeFormController">
+   <children>
+      <AnchorPane fx:id="themeFormContext" prefHeight="700.0" prefWidth="1152.0" styleClass="backimg" stylesheets="@../css/StyleSheet1.css">
+         <children>
+            <ImageView fx:id="symbol" fitHeight="240.0" fitWidth="248.0" layoutX="452.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="452.0" AnchorPane.rightAnchor="452.0">
+               <image>
+                  <Image url="@../assets/delta-logo-4207.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="hotelBlueLbl" layoutX="203.0" layoutY="626.0" text="Blue Ocean" AnchorPane.leftAnchor="203.0">
+               <font>
+                  <Font name="Lobster Regular" size="52.0" />
+               </font>
+            </Label>
+            <Label fx:id="OceanLbl" layoutX="717.0" layoutY="626.0" text="Hotel" AnchorPane.rightAnchor="329.0">
+               <font>
+                  <Font name="Lobster Regular" size="52.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="startBtn" layoutX="493.0" layoutY="556.0" onAction="#startBtn" opacity="0.0" prefHeight="60.0" prefWidth="167.0" style="-fx-background-color: white;" styleClass="JFButton" text="Start">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <Label layoutX="12.0" layoutY="677.0" text="Dilhara 2021/P/1408" textFill="#ffffff70">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

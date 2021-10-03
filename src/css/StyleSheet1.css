@@ -1,0 +1,103 @@
+.text{
+
+    -fx-border-radius:  30;
+    -fx-border-color: rgba(0,0,0,0.4);
+    -fx-border-width: 3;
+}
+.JFButton{
+    /*-fx-background-color: #575fcf;*/
+    -fx-background-color: linear-gradient(from 10% 10% to 50% 50%, #433499/*#00CFFF*/ , #0e84a2 /*#BB00FF*/);
+    -fx-background-radius: 30;
+}
+.Rec{
+    -fx-border-color: null;
+    -fx-background-radius: 30;
+    -fx-background-color: blue;
+}
+.anch {
+
+    -fx-background-radius: 30 30 30 30;
+
+    /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+
+}
+
+.Pane{
+
+    -fx-background-radius: 30;
+    -fx-background-color: rgba(0,0,0,0.3);
+    /*-fx-background-color: #575fcf;*/
+    /*-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);*/
+}
+
+.spin .arc{
+    -fx-stroke: #2980b9;
+}
+
+.image{
+    -fx-border-radius: 30;
+}
+
+.backimg{
+
+    -fx-background-color: linear-gradient(from 10% 10% to 50% 50%, #433499/*#00CFFF*/ , #0e84a2 /*#BB00FF*/);
+}
+
+.container{
+    -fx-background-color: rgba(225,225,225,0.2);
+}
+
+.round{
+    -fx-background-radius: 30;
+}
+
+/*.default-color0.chart-pie{-fx-pie-color: transparent;}*/
+/*.default-color1.chart-pie{-fx-pie-color: transparent;}*/
+/*.default-color2.chart-pie{-fx-pie-color: transparent;}*/
+/*.default-color3.chart-pie{-fx-pie-color: transparent;}*/
+
+/*.chart-pie-label{*/
+/*    -fx-fill: white;*/
+/*    -fx-stroke: white;*/
+/*    -fx-font-size: 13;*/
+/*}*/
+
+/*.chart-pie-label-line{*/
+/*    -fx-fill: white;*/
+/*    -fx-stroke: white;*/
+/*}*/
+
+.TextField{
+
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: rgba(0,0,0,0.5);
+}
+
+.table{
+    -fx-background-color: #0E84A2;
+    -fx-background-radius: 30;
+}
+
+.column-header-background {
+    -fx-background-color: #0E84A2;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0 0 10 0;
+    -fx-padding: 0 0 10 0;
+}
+.column-header, .table-view .filler{
+    -fx-size: 40;
+    -fx-border-width: 0 0 10 0;
+    -fx-background-color: transparent;
+}
+.column-header .label{
+    -fx-text-fill: rgba(0,0,0,0.8);
+    -fx-font-size: 18;
+    -fx-font-family: "Barlow Condensed Medium";
+}
+
+.combo-box{
+    -fx-font-family: "Barlow Condensed Medium";
+    -fx-font-size: 18;
+    -fx-prompt-text-fill: rgba(0,0,0,0.8);
+
+}

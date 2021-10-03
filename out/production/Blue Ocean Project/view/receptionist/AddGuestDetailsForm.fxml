@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="addGuestDetailsFormContext" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #EBECF0;" stylesheets="@../../css/StyleSheet1.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.receptionist.AddGuestDetailsFormController">
+   <children>
+      <VBox layoutX="87.0" layoutY="57.0" prefHeight="586.0" prefWidth="726.0" styleClass="Pane">
+         <children>
+            <Label alignment="BOTTOM_CENTER" prefHeight="69.0" prefWidth="726.0" text="Add Guest" textFill="#000000c7">
+               <font>
+                  <Font name="Barlow Condensed Medium" size="30.0" />
+               </font>
+            </Label>
+            <Pane prefHeight="308.0" prefWidth="726.0">
+               <children>
+                  <Pane layoutX="44.0" layoutY="63.0" prefHeight="50.0" prefWidth="200.0" styleClass="text">
+                     <children>
+                        <TextField focusTraversable="false" layoutX="23.0" prefHeight="50.0" prefWidth="154.0" promptText="NIC" style="-fx-background-color: null;" styleClass="TextField">
+                           <font>
+                              <Font name="Barlow Condensed Medium" size="18.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="264.0" layoutY="63.0" prefHeight="50.0" prefWidth="418.0" styleClass="text">
+                     <children>
+                        <TextField focusTraversable="false" layoutX="22.0" prefHeight="50.0" prefWidth="375.0" promptText="Name" style="-fx-background-color: null;" styleClass="TextField">
+                           <font>
+                              <Font name="Barlow Condensed Medium" size="18.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="44.0" layoutY="146.0" prefHeight="50.0" prefWidth="418.0" styleClass="text">
+                     <children>
+                        <TextField focusTraversable="false" layoutX="22.0" prefHeight="50.0" prefWidth="375.0" promptText="Email" style="-fx-background-color: null;" styleClass="TextField">
+                           <font>
+                              <Font name="Barlow Condensed Medium" size="18.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="482.0" layoutY="146.0" prefHeight="50.0" prefWidth="200.0" styleClass="text">
+                     <children>
+                        <TextField focusTraversable="false" layoutX="23.0" prefHeight="50.0" prefWidth="154.0" promptText="Telephone" style="-fx-background-color: null;" styleClass="TextField">
+                           <font>
+                              <Font name="Barlow Condensed Medium" size="18.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="44.0" layoutY="224.0" prefHeight="50.0" prefWidth="638.0" styleClass="text">
+                     <children>
+                        <TextField focusTraversable="false" layoutX="23.0" prefHeight="50.0" prefWidth="154.0" promptText="Address" style="-fx-background-color: null;" styleClass="TextField">
+                           <font>
+                              <Font name="Barlow Condensed Medium" size="18.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="266.0" layoutY="28.0" prefHeight="58.0" prefWidth="194.0" style="-fx-background-color: white;" styleClass="JFButton" text="Add">
+                     <font>
+                        <Font name="Barlow Condensed Medium" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

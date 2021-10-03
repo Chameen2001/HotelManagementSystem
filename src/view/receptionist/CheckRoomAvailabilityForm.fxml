@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="checkRoomAvailabilityFormContext" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #EBECF0;" stylesheets="@../../css/StyleSheet1.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.receptionist.AddGuestDetailsFormController">
+   <children>
+      <VBox layoutX="97.0" layoutY="67.0" prefHeight="586.0" prefWidth="726.0" styleClass="Pane">
+         <children>
+            <Label alignment="BOTTOM_CENTER" prefHeight="69.0" prefWidth="726.0" text="Room Availability" textFill="#000000c7">
+               <font>
+                  <Font name="Barlow Condensed Medium" size="30.0" />
+               </font>
+            </Label>
+            <BorderPane prefHeight="454.0" prefWidth="726.0">
+               <center>
+                  <TableView prefHeight="413.0" prefWidth="726.0" styleClass="table" stylesheets="@../../css/StyleSheet1.css" BorderPane.alignment="CENTER">
+                    <columns>
+                      <TableColumn prefWidth="119.0" text="Room No" />
+                      <TableColumn prefWidth="174.0" text="Type" />
+                        <TableColumn prefWidth="115.0" text="Flow No" />
+                        <TableColumn prefWidth="144.0" text="Price Per Day" />
+                        <TableColumn prefWidth="153.0" text="Size" />
+                    </columns>
+                  </TableView>
+               </center>
+               <padding>
+                  <Insets left="10.0" right="10.0" top="50.0" />
+               </padding>
+            </BorderPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
